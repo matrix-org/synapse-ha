@@ -24,8 +24,7 @@ Useful commands that can be run on a node:
 
 ## To do
 
-* Host-level stonith
-* Figure out what is going on with the synapse resource getting stuck in the Stopped state and requiring manual intervention by running `sudo pcs resource cleanup synapse` to get it running again
+* The synapse resource may get stuck in the Stopped state and require manual intervention by running `sudo pcs resource cleanup synapse` to get it running again
 * Configuration against a postgres database (see synapse docker image readme for details)
 * Synchronise configuration between nodes (currently duplicated per node - **modifications to synapse configuration on one node are not carried over to other nodes**)
 * Convenient packaging as 'appliance'-type VM images with some way of setting a few parameters to configure the instances
